@@ -15,6 +15,8 @@
 		9123DCF31DB4A51100033FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9123DCF11DB4A51100033FBE /* LaunchScreen.storyboard */; };
 		9123DCFE1DB4A51100033FBE /* UIVisualEffectViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9123DCFD1DB4A51100033FBE /* UIVisualEffectViewTests.m */; };
 		9123DD091DB4A51100033FBE /* UIVisualEffectViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9123DD081DB4A51100033FBE /* UIVisualEffectViewUITests.m */; };
+		9123DD171DB4A53400033FBE /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9123DD161DB4A53400033FBE /* 3.jpeg */; };
+		9123DD1E1DB4C63800033FBE /* LongPressBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9123DD1D1DB4C63800033FBE /* LongPressBlurView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9123DD041DB4A51100033FBE /* UIVisualEffectViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVisualEffectViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9123DD081DB4A51100033FBE /* UIVisualEffectViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIVisualEffectViewUITests.m; sourceTree = "<group>"; };
 		9123DD0A1DB4A51100033FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9123DD161DB4A53400033FBE /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		9123DD1C1DB4C63800033FBE /* LongPressBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongPressBlurView.h; sourceTree = "<group>"; };
+		9123DD1D1DB4C63800033FBE /* LongPressBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongPressBlurView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		9123DCE21DB4A51100033FBE /* UIVisualEffectView */ = {
 			isa = PBXGroup;
 			children = (
+				9123DD1B1DB4C63800033FBE /* LongPressBlurView */,
 				9123DCE61DB4A51100033FBE /* AppDelegate.h */,
 				9123DCE71DB4A51100033FBE /* AppDelegate.m */,
 				9123DCE91DB4A51100033FBE /* ViewController.h */,
@@ -108,6 +114,7 @@
 				9123DCEC1DB4A51100033FBE /* Main.storyboard */,
 				9123DCEF1DB4A51100033FBE /* Assets.xcassets */,
 				9123DCF11DB4A51100033FBE /* LaunchScreen.storyboard */,
+				9123DD161DB4A53400033FBE /* 3.jpeg */,
 				9123DCF41DB4A51100033FBE /* Info.plist */,
 				9123DCE31DB4A51100033FBE /* Supporting Files */,
 			);
@@ -138,6 +145,15 @@
 				9123DD0A1DB4A51100033FBE /* Info.plist */,
 			);
 			path = UIVisualEffectViewUITests;
+			sourceTree = "<group>";
+		};
+		9123DD1B1DB4C63800033FBE /* LongPressBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				9123DD1C1DB4C63800033FBE /* LongPressBlurView.h */,
+				9123DD1D1DB4C63800033FBE /* LongPressBlurView.m */,
+			);
+			path = LongPressBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9123DCF31DB4A51100033FBE /* LaunchScreen.storyboard in Resources */,
+				9123DD171DB4A53400033FBE /* 3.jpeg in Resources */,
 				9123DCF01DB4A51100033FBE /* Assets.xcassets in Resources */,
 				9123DCEE1DB4A51100033FBE /* Main.storyboard in Resources */,
 			);
@@ -279,6 +296,7 @@
 				9123DCEB1DB4A51100033FBE /* ViewController.m in Sources */,
 				9123DCE81DB4A51100033FBE /* AppDelegate.m in Sources */,
 				9123DCE51DB4A51100033FBE /* main.m in Sources */,
+				9123DD1E1DB4C63800033FBE /* LongPressBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +534,7 @@
 				9123DD0F1DB4A51100033FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9123DD101DB4A51100033FBE /* Build configuration list for PBXNativeTarget "UIVisualEffectViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				9123DD121DB4A51100033FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9123DD131DB4A51100033FBE /* Build configuration list for PBXNativeTarget "UIVisualEffectViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				9123DD151DB4A51100033FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
