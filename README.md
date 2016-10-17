@@ -1,7 +1,8 @@
 # UIVisualEffectView
-添加高斯模糊,可以在UIView或者UIImageView等视图上添加本视图,使用简单方便.
+添加高斯模糊,可以在UIView或者UIImageView等视图上添加本视图,使用简单方便,只需导入LongPressBlurView类.
+
 ![2](https://github.com/shibiao/UIVisualEffectView/blob/master/2.gif)
-#####只需在view上添加一个LongPressBlurView,长按就能模糊.
+#####只需在view上添加并创建一个LongPressBlurView,长按就能起到模糊的作用.
 #####使用方法如下(详情见demo):
 ```
  
